@@ -685,7 +685,7 @@ U 1 1 5C86588D
 P 8850 3525
 F 0 "MX332" H 8936 3742 60  0000 C CNN
 F 1 "MX-2U" H 8936 3668 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-2U" H 8825 3500 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U-ReversedStabilizers" H 8825 3500 60  0001 C CNN
 F 3 "" H 8825 3500 60  0001 C CNN
 	1    8850 3525
 	1    0    0    -1  
@@ -696,7 +696,7 @@ U 1 1 5C865937
 P 9850 3200
 F 0 "MX262" H 9936 3417 60  0000 C CNN
 F 1 "MX-2U" H 9936 3343 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-2U" H 9825 3175 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U-ReversedStabilizers" H 9825 3175 60  0001 C CNN
 F 3 "" H 9825 3175 60  0001 C CNN
 	1    9850 3200
 	1    0    0    -1  
@@ -1248,7 +1248,7 @@ U 1 1 5C868024
 P 10200 2050
 F 0 "MX62" H 10286 2267 60  0000 C CNN
 F 1 "MX-2U" H 10286 2193 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-2U" H 10175 2025 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U-ReversedStabilizers" H 10175 2025 60  0001 C CNN
 F 3 "" H 10175 2025 60  0001 C CNN
 	1    10200 2050
 	1    0    0    -1  
@@ -1280,10 +1280,10 @@ Text GLabel 6375 3900 2    50   Input ~ 0
 COL1
 Text GLabel 6375 4600 2    50   Input ~ 0
 COL3
-Text GLabel 6375 4500 2    50   Input ~ 0
-COL4
 Text GLabel 6375 4200 2    50   Input ~ 0
+COL4
+Text GLabel 6375 4500 2    50   Input ~ 0
 COL5
-Text GLabel 6375 2400 2    50   Input ~ 0
+Text GLabel 6375 2700 2    50   Input ~ 0
 COL6
 $EndSCHEMATC
